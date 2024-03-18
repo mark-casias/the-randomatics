@@ -1,0 +1,15 @@
+{% stories atoms with { title: 'TheRandomatics/Atoms'} %}
+
+  {% story link with {
+    name: 'Link',
+    args: {
+      href: '#',
+      text: 'Link Text',
+      class: 'menu-item'
+    }
+  } %}
+    {% include 'the_randotheme:link' %}
+
+  {% endstory %}
+
+{% endstories %}

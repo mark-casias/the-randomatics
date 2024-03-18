@@ -1,0 +1,27 @@
+body {
+  font-family: 'League Spartan', sans-serif;
+  color: #44e0cf;
+  background-color: black;
+  font-size: 1.5rem;
+}
+.header {
+  text-align: center;
+
+  img {
+    max-width: 80vw;
+  }
+}
+
+.menu {
+  margin: .5rem;
+  padding: .5rem 0;
+  background-color: darkturquoise;
+}
+.main {
+  width: 75vw;
+  margin: 0 auto;
+}
+footer {
+  width: 75vw;
+  margin: 0 auto;
+}

@@ -1,0 +1,20 @@
+[data-component-id="the_randotheme:show-teaser"] {
+  margin: .5rem;
+  height: 100%;
+  max-width: 350px;
+  border: 1px solid red;
+
+  img {
+    width: 100%;
+  }
+
+  .show__date {
+    padding: 1rem;
+    background-color: darkturquoise;
+    color: black;
+  }
+  .show__place {
+    margin: 0 auto;
+    padding: 1rem;
+    font-size: 2rem;
+  }

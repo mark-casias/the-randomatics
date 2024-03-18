@@ -1,0 +1,23 @@
+{% stories blocks with {title: 'TheRandomatics/Blocks'} %}
+
+  {% story block_menu with {
+    name: "Main Menu",
+  } %}
+    {% embed "the_randotheme:system-menu" %}
+      {% block content %}
+        <ul>
+        {% for i in 0..5 %}
+          <li>
+            {% include "the_randotheme:link" with {
+              url: "#",
+              text: "item",
+              class: "menu-item"
+            } %}
+          </li>
+        {% endfor %}
+        </ul>
+      {% endblock %}
+    {% endembed %}
+  {% endstory %}
+
+{% endstories %}

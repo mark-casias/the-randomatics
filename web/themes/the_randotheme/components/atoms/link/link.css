@@ -1,0 +1,13 @@
+a {
+
+  color: white;
+  text-decoration: none;
+
+  &.menu-item {
+    padding: .25rem;
+    background-color: var(--color-gold);
+    color: black;
+    border: 1px solid var(--color-black);
+    border-radius: .4rem;
+  }
+}

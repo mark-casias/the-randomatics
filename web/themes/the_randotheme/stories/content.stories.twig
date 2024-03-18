@@ -1,0 +1,20 @@
+{% stories content with {title: 'TheRandomatics/Content'} %}
+
+  {% story show_teaser with {
+    name: "Show Teaser",
+    args: {
+      url: '#',
+      field_date: '2024-10-01 22:00:00',
+      image: {
+        src: 'https://www.therandomatics.com/images/brewlab_aug_poster_2024.png',
+        alt: 'hi there'
+      }
+
+    }
+  } %}
+    <h2>Start</h2>
+    {% include 'the_randotheme:show-teaser' %}
+
+  {% endstory %}
+
+{% endstories %}

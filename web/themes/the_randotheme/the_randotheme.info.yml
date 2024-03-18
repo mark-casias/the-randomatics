@@ -1,0 +1,19 @@
+name: the_randotheme
+type: theme
+base theme: stable9
+description: Randomatics Theme
+logo: 'images/logo-square.png'
+package: Custom
+core_version_requirement: ^10
+libraries:
+  - the_randotheme/global
+regions:
+  header: 'Header'
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  page_top: 'Page top'
+  breadcrumb: 'Breadcrumb'
+  featured: 'Featured'
+  content: 'Content'
+  page_bottom: 'Page bottom'
+  footer: 'Footer'

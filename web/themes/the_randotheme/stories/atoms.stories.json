@@ -1,0 +1,1 @@
+{"title":"TheRandomatics\/Atoms","parameters":{"server":{"url":"https:\/\/therandomatics-drupal.ddev.site\/storybook\/stories\/render"}},"stories":[{"name":"Link","args":{"href":"#","text":"Link Text","class":"menu-item"},"parameters":{"server":{"id":"eyJwYXRoIjoidGhlbWVzXC90aGVfcmFuZG90aGVtZVwvc3Rvcmllc1wvYXRvbXMuc3Rvcmllcy50d2lnIiwiaWQiOiJsaW5rIn0%3D"}}}]}
