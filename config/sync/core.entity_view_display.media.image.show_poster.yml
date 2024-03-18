@@ -1,0 +1,32 @@
+uuid: 8587cfbf-63f5-45fd-9bdb-87cc47f5616b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.show_poster
+    - field.field.media.image.field_media_image
+    - image.style.large
+    - media.type.image
+  module:
+    - image
+id: media.image.show_poster
+targetEntityType: media
+bundle: image
+mode: show_poster
+content:
+  field_media_image:
+    type: image
+    label: visually_hidden
+    settings:
+      image_link: ''
+      image_style: large
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  name: true
+  thumbnail: true
+  uid: true

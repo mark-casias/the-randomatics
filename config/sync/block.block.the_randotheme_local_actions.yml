@@ -1,0 +1,20 @@
+uuid: 440d832f-acb8-48d8-9ee0-e2cd0d6961b9
+langcode: en
+status: true
+dependencies:
+  theme:
+    - the_randotheme
+_core:
+  default_config_hash: CdXfDmRgAvms7EQovxxWPdYi0GitxeRbVtScYK16ZH0
+id: the_randotheme_local_actions
+theme: the_randotheme
+region: secondary_menu
+weight: -3
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

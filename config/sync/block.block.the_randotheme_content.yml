@@ -1,0 +1,22 @@
+uuid: 3c5878b1-a113-4c32-9d6f-9c1792772c38
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - the_randotheme
+_core:
+  default_config_hash: a0Yyx1GeyKarZ4T_yXQBR_ZFKnXiFLtxAb6gWLd8nr0
+id: the_randotheme_content
+theme: the_randotheme
+region: content
+weight: -3
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

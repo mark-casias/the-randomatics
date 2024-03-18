@@ -1,0 +1,23 @@
+uuid: 170293c6-5925-46f3-a04d-d37b6b434576
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - the_randotheme
+id: the_randotheme_sitebranding
+theme: the_randotheme
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

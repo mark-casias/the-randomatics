@@ -1,0 +1,11 @@
+uuid: 8602ad10-a097-4be7-9571-65280cacc49d
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.show_poster
+label: 'Show Poster'
+description: ''
+targetEntityType: media
+cache: true

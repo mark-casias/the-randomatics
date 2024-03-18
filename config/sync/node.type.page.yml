@@ -1,0 +1,18 @@
+uuid: 91cfd32e-aa8a-4fc3-ba6e-67f0cb7e6722
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Page
+type: page
+description: 'Basic Page'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false
