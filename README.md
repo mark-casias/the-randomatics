@@ -10,10 +10,10 @@ Drupal version of The Randomatics
 
 - `ddev start`
 - `ddev composer install`
-- `ddev drush si` - to be replaced with a snapshot later.
-- `ddev drush config-set "system.site" uuid TBD3a60452d-f435-49aa-8029-402f096ae8ea` - Updates the site UUID so the config imports without issue.
+- `ddev drush si minimal` - to be replaced with a snapshot later.
+- `ddev drush config-set "system.site" uuid 3a60452d-f435-49aa-8029-402f096ae8ea` - Updates the site UUID so the config imports without issue.
 - `ddev drush cim` - one day this will work out of the box, but the snapshot will replace it anyway
-- Site is available at [https://the-randomatics.ddev.site](https://the-randomatics.ddev.site)
+- Site is available at [https://therandomatics-drupal.ddev.site](https://therandomatics-drupal.ddev.site)
 
 ## Setting up Storybook
 
@@ -21,7 +21,7 @@ Drupal version of The Randomatics
 - `ddev drush cr`
 - `ddev yarn install`
 - `ddev yarn storybook`
-- Storybook instance is viewable at [https://the-randomatics.ddev.site:6006](https://the-randomatics.ddev.site:6006)
+- Storybook instance is viewable at [https://therandomatics-drupal.ddev.site:6006](https://therandomatics-drupal.ddev.site:6006)
 
 ## Updating Storybook
 

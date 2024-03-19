@@ -45,3 +45,4 @@ web/sites/simpletest
 # Ignore multi-site test environment.
 # simpletest
 node_modules
+/.yarn/install-state.gz
