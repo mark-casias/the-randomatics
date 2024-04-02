@@ -1,5 +1,15 @@
 {% stories blocks with {title: 'TheRandomatics/Blocks'} %}
 
+  {% story block_branding with {
+    name: "Branding",
+    args: {
+      site_logo: "https://therandomatics-drupal.ddev.site/themes/the_randotheme/images/logo-square.png"
+    }
+  } %}
+    {% include "the_randotheme:branding" %}
+  {% endstory %}
+
+
   {% story block_menu with {
     name: "Main Menu",
   } %}
