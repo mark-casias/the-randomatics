@@ -15,13 +15,13 @@ body {
 
 h1, h2 {
   font-size: 1.5rem;
-  color: #44e0cf
+  color: var(--color-blue);
 }
 
 .menu {
   margin: .5rem;
   padding: .5rem 0;
-  background-color: darkturquoise;
+  background-color: var(--color-blue);
 }
 main {
   width: 75vw;
@@ -29,5 +29,5 @@ main {
 }
 footer {
   padding: 2rem 0;
-  background-color: var(--color-red);
+  background-color: var(--color-blue);
 }
