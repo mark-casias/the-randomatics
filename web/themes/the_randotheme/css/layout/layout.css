@@ -1,8 +1,9 @@
 body {
   font-family: 'League Spartan', sans-serif;
-  color: #44e0cf;
+  color: white;
   background-color: black;
   font-size: 1.5rem;
+  margin: 0;
 }
 .header {
   text-align: center;
@@ -12,16 +13,21 @@ body {
   }
 }
 
+h1, h2 {
+  font-size: 1.5rem;
+  color: #44e0cf
+}
+
 .menu {
   margin: .5rem;
   padding: .5rem 0;
   background-color: darkturquoise;
 }
-.main {
+main {
   width: 75vw;
   margin: 0 auto;
 }
 footer {
-  width: 75vw;
-  margin: 0 auto;
+  padding: 2rem 0;
+  background-color: var(--color-red);
 }

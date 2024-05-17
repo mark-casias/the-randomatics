@@ -1,0 +1,25 @@
+uuid: 95f9bfe7-365b-4cc7-9e06-2703e8b438ae
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:custom:0be74033-205f-4da4-9cea-c423a4a6e728'
+  module:
+    - block_content
+  theme:
+    - the_randotheme
+id: the_randotheme_subscriptionblock
+theme: the_randotheme
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:0be74033-205f-4da4-9cea-c423a4a6e728'
+settings:
+  id: 'block_content:0be74033-205f-4da4-9cea-c423a4a6e728'
+  label: 'Subscription block'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

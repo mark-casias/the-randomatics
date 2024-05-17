@@ -1,0 +1,12 @@
+uuid: 3ad1fb59-b1e5-4fe6-9ddb-fe0ef4043f83
+langcode: en
+status: true
+dependencies: {  }
+id: contact
+label: Contact
+recipients:
+  - therandomatics@gmail.com
+reply: ''
+weight: 0
+message: ''
+redirect: ''

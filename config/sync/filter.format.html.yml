@@ -1,0 +1,17 @@
+uuid: f798af3a-4d08-4667-a1b2-29a3e2319d1f
+langcode: en
+status: true
+dependencies: {  }
+name: HTML
+format: html
+weight: 0
+filters:
+  filter_html:
+    id: filter_html
+    provider: filter
+    status: true
+    weight: -10
+    settings:
+      allowed_html: '<br> <p class="text-align-left text-align-center text-align-right text-align-justify"> <h2 class="text-align-left text-align-center text-align-right text-align-justify"> <h3 class="text-align-left text-align-center text-align-right text-align-justify"> <h4 class="text-align-left text-align-center text-align-right text-align-justify"> <h5 class="text-align-left text-align-center text-align-right text-align-justify"> <h6 class="text-align-left text-align-center text-align-right text-align-justify"> <strong> <em> <a href> <ul> <ol reversed start> <li>'
+      filter_html_help: true
+      filter_html_nofollow: true

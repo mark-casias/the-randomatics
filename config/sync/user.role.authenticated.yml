@@ -2,7 +2,10 @@ uuid: b80e4ad3-ab83-423c-b851-fd86933b9a38
 langcode: en
 status: true
 dependencies:
+  config:
+    - filter.format.html
   module:
+    - filter
     - media
     - storybook
     - system
@@ -15,4 +18,5 @@ is_admin: false
 permissions:
   - 'access content'
   - 'render storybook stories'
+  - 'use text format html'
   - 'view media'

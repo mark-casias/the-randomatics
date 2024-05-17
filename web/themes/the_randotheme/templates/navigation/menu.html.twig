@@ -38,7 +38,7 @@
       <li{{ item.attributes }}>
         {% include 'the_randotheme:link' with {
           class: 'menu-item',
-          url: item.url,
+          href: item.url,
           text: item.title,
         } %}
         {% if item.below %}

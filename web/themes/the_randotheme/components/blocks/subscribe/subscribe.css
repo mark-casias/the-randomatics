@@ -1,0 +1,21 @@
+[data-component-id="the_randotheme:subscribe"] {
+  width: 75vw;
+  margin: 0 auto;
+  h2 {
+    margin-bottom: 1rem;
+  }
+  .asterisk {
+    color: red;
+  }
+  .indicates-required {
+    display: inline;
+    font-size: .9rem;
+    margin-left: 2rem;
+  }
+  .button {
+    background-color: gold;
+    border-style: solid;
+    border-radius: .4rem;
+    border-color: black;
+  }
+}

@@ -1,0 +1,11 @@
+[data-component-id="the_randotheme:event-list"] {
+  ul {
+    list-style: none;
+    flex-direction: row;
+    justify-content: center;
+
+    &:not(.contextual-links) {
+      display: flex;
+    }
+  }
+}
