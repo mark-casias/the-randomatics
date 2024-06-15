@@ -2,10 +2,15 @@
   ul {
     list-style: none;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
 
     &:not(.contextual-links) {
       display: flex;
     }
+  }
+
+  li {
+    margin-bottom: 1rem;
   }
 }
