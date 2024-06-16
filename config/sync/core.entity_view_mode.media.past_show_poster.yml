@@ -1,0 +1,11 @@
+uuid: a19eda92-2bee-4561-9a82-34cacc09529c
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.past_show_poster
+label: 'Past Show Poster'
+description: ''
+targetEntityType: media
+cache: true

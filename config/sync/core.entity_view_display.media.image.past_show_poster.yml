@@ -1,19 +1,24 @@
-uuid: 8587cfbf-63f5-45fd-9bdb-87cc47f5616b
+uuid: 3f64fe23-4917-402f-ac05-c43ffb03beeb
 langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.media.show_poster
+    - core.entity_view_mode.media.past_show_poster
     - field.field.media.image.field_media_image
     - image.style.medium
     - media.type.image
   module:
     - image
+    - layout_builder
     - nomarkup
-id: media.image.show_poster
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: media.image.past_show_poster
 targetEntityType: media
 bundle: image
-mode: show_poster
+mode: past_show_poster
 content:
   field_media_image:
     type: image

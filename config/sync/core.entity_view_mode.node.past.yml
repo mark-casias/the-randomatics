@@ -1,0 +1,11 @@
+uuid: e69e8422-ba5c-47e6-a20e-5c29f173599e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.past
+label: Past
+description: ''
+targetEntityType: node
+cache: true
