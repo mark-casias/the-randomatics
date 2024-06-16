@@ -1,16 +1,17 @@
-[data-component-id="the_randotheme:show-teaser"] {
+[data-component-id="the_randotheme:show-teaser-past"] {
   margin: 1rem;
-  width: 350px;
+  width: 200px;
 
   img {
     width: 100%;
   }
 
-  .show__date {
+  .show__label {
     background-color: darkturquoise;
     border-radius: 1rem 1rem 0 0;
     color: black;
     padding: 1rem;
+    font-size: .75rem;
   }
   .show__place {
     font-size: 2rem;
