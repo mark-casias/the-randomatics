@@ -1,0 +1,18 @@
+uuid: e83880a8-605b-45ac-b94a-6b294901319d
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Venue
+type: venue
+description: 'Show Locations that we can re-use'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

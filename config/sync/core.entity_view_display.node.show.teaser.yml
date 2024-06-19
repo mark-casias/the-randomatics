@@ -6,8 +6,8 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.show.body
     - field.field.node.show.field_show_date
-    - field.field.node.show.field_show_location
     - field.field.node.show.field_show_poster
+    - field.field.node.show.field_venue
     - node.type.show
   module:
     - datetime
@@ -46,5 +46,5 @@ content:
     region: content
 hidden:
   body: true
-  field_show_location: true
+  field_venue: true
   links: true

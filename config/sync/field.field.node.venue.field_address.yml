@@ -1,17 +1,17 @@
-uuid: da81fe15-e252-483b-bd6b-7df707e13f17
+uuid: 4fc90416-c36c-418e-91f2-dc3855cc2542
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_show_location
-    - node.type.show
+    - field.storage.node.field_address
+    - node.type.venue
   module:
     - address
-id: node.show.field_show_location
-field_name: field_show_location
+id: node.venue.field_address
+field_name: field_address
 entity_type: node
-bundle: show
-label: 'Show Location'
+bundle: venue
+label: Address
 description: ''
 required: false
 translatable: false
@@ -20,14 +20,14 @@ default_value:
     langcode: null
     country_code: US
     administrative_area: NM
-    locality: Albuquerque
+    locality: ''
     dependent_locality: null
-    postal_code: ''
+    postal_code: null
     sorting_code: null
     address_line1: ''
     address_line2: ''
-    address_line3: ''
-    organization: ''
+    address_line3: null
+    organization: null
     given_name: null
     additional_name: null
     family_name: null
@@ -43,15 +43,11 @@ settings:
       override: hidden
     familyName:
       override: hidden
+    organization:
+      override: hidden
     addressLine3:
       override: hidden
     postalCode:
       override: hidden
-    sortingCode:
-      override: hidden
-    dependentLocality:
-      override: hidden
-    administrativeArea:
-      override: required
   fields: {  }
 field_type: address

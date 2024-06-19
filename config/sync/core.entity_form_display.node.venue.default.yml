@@ -1,0 +1,38 @@
+uuid: 4b7f4f75-a76c-4df4-8b0c-cbedc15cc1eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.venue.field_address
+    - field.field.node.venue.field_logo
+    - node.type.venue
+  module:
+    - address
+id: node.venue.default
+targetEntityType: node
+bundle: venue
+mode: default
+content:
+  field_address:
+    type: address_default
+    weight: 1
+    region: content
+    settings:
+      wrapper_type: fieldset
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_logo: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true

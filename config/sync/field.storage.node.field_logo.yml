@@ -1,16 +1,17 @@
-uuid: 92fef166-6739-4962-a3ed-31611c0968e1
+uuid: 75c85dcc-dd9c-4ab9-9202-06b276d851b5
 langcode: en
 status: true
 dependencies:
   module:
-    - address
+    - media
     - node
-id: node.field_show_location
-field_name: field_show_location
+id: node.field_logo
+field_name: field_logo
 entity_type: node
-type: address
-settings: {  }
-module: address
+type: entity_reference
+settings:
+  target_type: media
+module: core
 locked: false
 cardinality: 1
 translatable: true

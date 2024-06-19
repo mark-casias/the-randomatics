@@ -5,12 +5,10 @@ dependencies:
   config:
     - field.field.node.show.body
     - field.field.node.show.field_show_date
-    - field.field.node.show.field_show_location
     - field.field.node.show.field_show_poster
+    - field.field.node.show.field_venue
     - node.type.show
   module:
-    - address
-    - address_map_link
     - datetime
     - nomarkup
     - text
@@ -40,23 +38,6 @@ content:
         referenced_entity: ''
     weight: 0
     region: content
-  field_show_location:
-    type: address_default
-    label: hidden
-    settings: {  }
-    third_party_settings:
-      address_map_link:
-        link_address: true
-        map_link_type: google_maps
-        map_link_position: after
-        map_link_text: 'Open Map'
-        map_link_new_window: true
-      nomarkup:
-        enabled: true
-        separator: '|'
-        referenced_entity: ''
-    weight: 1
-    region: content
   field_show_poster:
     type: entity_reference_entity_view
     label: hidden
@@ -69,6 +50,19 @@ content:
         separator: '|'
         referenced_entity: '1'
     weight: 2
+    region: content
+  field_venue:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: teaser
+      link: false
+    third_party_settings:
+      nomarkup:
+        enabled: false
+        separator: '|'
+        referenced_entity: '0'
+    weight: 1
     region: content
 hidden:
   links: true

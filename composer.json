@@ -25,6 +25,7 @@
         "drupal/core-vendor-hardening": "^10.2",
         "drupal/gin": "^3.0@RC",
         "drupal/gin_toolbar": "^1.0@RC",
+        "drupal/inline_entity_form": "^3.0@RC",
         "drupal/nomarkup": "^1.0",
         "drupal/pathauto": "^1.12",
         "drupal/storybook": "^1.0@beta",

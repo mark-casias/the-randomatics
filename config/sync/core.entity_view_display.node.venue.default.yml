@@ -1,0 +1,50 @@
+uuid: 15814c5d-00a2-4936-8f2b-e92dcb8c09fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.venue.field_address
+    - field.field.node.venue.field_logo
+    - node.type.venue
+  module:
+    - address
+    - address_map_link
+    - nomarkup
+    - user
+id: node.venue.default
+targetEntityType: node
+bundle: venue
+mode: default
+content:
+  field_address:
+    type: address_default
+    label: hidden
+    settings: {  }
+    third_party_settings:
+      address_map_link:
+        link_address: true
+        map_link_type: apple_maps
+        map_link_position: address
+        map_link_text: 'Open Map'
+        map_link_new_window: false
+      nomarkup:
+        enabled: false
+        separator: '|'
+        referenced_entity: ''
+    weight: 101
+    region: content
+  field_logo:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }
