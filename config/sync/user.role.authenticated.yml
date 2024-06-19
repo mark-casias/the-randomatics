@@ -1,0 +1,65 @@
+uuid: b80e4ad3-ab83-423c-b851-fd86933b9a38
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.html
+    - media.type.image
+    - node.type.page
+    - node.type.show
+  module:
+    - file
+    - filter
+    - media
+    - node
+    - storybook
+    - system
+    - toolbar
+_core:
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access content'
+  - 'access content overview'
+  - 'access files overview'
+  - 'access media overview'
+  - 'access toolbar'
+  - 'create image media'
+  - 'create media'
+  - 'create page content'
+  - 'create show content'
+  - 'delete any image media'
+  - 'delete any image media revisions'
+  - 'delete any media'
+  - 'delete any page content'
+  - 'delete any show content'
+  - 'delete media'
+  - 'delete own files'
+  - 'delete own image media'
+  - 'delete own page content'
+  - 'delete own show content'
+  - 'delete page revisions'
+  - 'delete show revisions'
+  - 'edit any image media'
+  - 'edit any page content'
+  - 'edit any show content'
+  - 'edit own image media'
+  - 'edit own page content'
+  - 'edit own show content'
+  - 'render storybook stories'
+  - 'revert any image media revisions'
+  - 'revert page revisions'
+  - 'revert show revisions'
+  - 'update any media'
+  - 'update media'
+  - 'use text format html'
+  - 'view all media revisions'
+  - 'view any image media revisions'
+  - 'view media'
+  - 'view own unpublished content'
+  - 'view own unpublished media'
+  - 'view page revisions'
+  - 'view show revisions'

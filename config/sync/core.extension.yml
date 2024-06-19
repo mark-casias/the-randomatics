@@ -41,6 +41,7 @@ module:
   responsive_image: 0
   sdc: 0
   serialization: 0
+  storybook: 0
   system: 0
   taxonomy: 0
   text: 0
