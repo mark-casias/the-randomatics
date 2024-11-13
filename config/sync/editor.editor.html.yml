@@ -39,4 +39,5 @@ settings:
         reversed: true
         startIndex: true
       multiBlock: true
-image_upload: {  }
+image_upload:
+  status: false

@@ -47,3 +47,6 @@ web/sites/simpletest
 node_modules
 /.yarn/install-state.gz
 /web/sites/default/settings.local.php
+
+*.mysql
+*.mysql.gz
