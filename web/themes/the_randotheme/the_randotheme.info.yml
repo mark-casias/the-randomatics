@@ -2,7 +2,7 @@ name: the_randotheme
 type: theme
 base theme: stable9
 description: Randomatics Theme
-logo: 'images/logo-square.png'
+logo: 'images/randomatics+logo+promo+crop.png'
 package: Custom
 core_version_requirement: ^10
 libraries:
