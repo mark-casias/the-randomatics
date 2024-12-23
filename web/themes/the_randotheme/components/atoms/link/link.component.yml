@@ -1,4 +1,19 @@
 $schema: https://git.drupalcode.org/project/sdc/-/raw/1.x/src/metadata.schema.json
-name: Atoms - Link
+name: Link
 status: stable
-group: TheRandoTheme
+group: Atoms
+props:
+  type: object
+  properties:
+    class:
+      type: string
+      name: Classes
+      description: Specific classes to append to link
+    text:
+      type: string
+      name: Text
+      description: Link Text
+    href:
+      type: string
+      name: URL
+      description: URL
