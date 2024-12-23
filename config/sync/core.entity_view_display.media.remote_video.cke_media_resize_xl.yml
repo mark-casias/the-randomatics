@@ -1,0 +1,41 @@
+uuid: 90debc22-e19c-451b-a653-57b67c22aa2a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.cke_media_resize_xl
+    - field.field.media.remote_video.field_media_oembed_video
+    - media.type.remote_video
+  module:
+    - layout_builder
+    - media
+    - nomarkup
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: media.remote_video.cke_media_resize_xl
+targetEntityType: media
+bundle: remote_video
+mode: cke_media_resize_xl
+content:
+  field_media_oembed_video:
+    type: oembed
+    label: visually_hidden
+    settings:
+      max_width: 800
+      max_height: 0
+      loading:
+        attribute: lazy
+    third_party_settings:
+      nomarkup:
+        enabled: true
+        separator: '|'
+        referenced_entity: ''
+    weight: 0
+    region: content
+hidden:
+  created: true
+  name: true
+  thumbnail: true
+  uid: true

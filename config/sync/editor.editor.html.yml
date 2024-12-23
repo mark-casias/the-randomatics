@@ -1,4 +1,4 @@
-uuid: 6e6492ab-c41d-48c3-b1be-0c2ddf5dfab2
+uuid: 8eb8ac01-a5c3-4cc8-8dd0-e2b9297809db
 langcode: en
 status: true
 dependencies:
@@ -12,14 +12,17 @@ settings:
   toolbar:
     items:
       - heading
-      - link
+      - alignment
       - '|'
       - bold
       - italic
       - '|'
-      - bulletedList
       - numberedList
-      - alignment
+      - bulletedList
+      - '|'
+      - drupalMedia
+      - removeFormat
+      - sourceEditing
   plugins:
     ckeditor5_alignment:
       enabled_alignments:
@@ -39,5 +42,16 @@ settings:
         reversed: true
         startIndex: true
       multiBlock: true
+    ckeditor5_sourceEditing:
+      allowed_tags: {  }
+    ckeditor_media_resize_mediaResize:
+      apply_image_styles: true
+      image_styles:
+        - cke_media_resize_small
+        - cke_media_resize_medium
+        - cke_media_resize_large
+        - cke_media_resize_xl
+    media_media:
+      allow_view_mode_override: true
 image_upload:
   status: false
