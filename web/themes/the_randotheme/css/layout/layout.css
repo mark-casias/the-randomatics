@@ -31,3 +31,12 @@ footer {
   padding: 2rem 0;
   background-color: var(--color-blue);
 }
+
+ul.video-item {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
