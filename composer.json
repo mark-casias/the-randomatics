@@ -25,6 +25,7 @@
         "drupal/core-recommended": "^10.3",
         "drupal/core-vendor-hardening": "^10.3",
         "drupal/gin": "^4",
+        "drupal/google_tag": "^2.0",
         "drupal/inline_entity_form": "^3.0@RC",
         "drupal/nomarkup": "^1.0",
         "drupal/pathauto": "^1.12",

@@ -1,0 +1,27 @@
+uuid: d3113f8e-63a5-4e81-ab11-101ec49be46e
+langcode: en
+status: true
+dependencies: {  }
+id: GTM-TLSHTKGM.679a7c84aca8f7.91359483
+label: GTM-TLSHTKGM
+weight: 0
+tag_container_ids:
+  - GTM-TLSHTKGM
+advanced_settings:
+  consent_mode: false
+  gtm:
+    GTM-TLSHTKGM:
+      data_layer: dataLayer
+      include_classes: false
+      allowlist_classes: ''
+      blocklist_classes: ''
+      include_environment: false
+      environment_id: ''
+      environment_token: ''
+dimensions_metrics: {  }
+conditions: {  }
+events:
+  custom: {  }
+  generate_lead:
+    value: ''
+    currency: ''
