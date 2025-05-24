@@ -49,5 +49,6 @@ filters:
         cke_media_resize_small: cke_media_resize_small
         cke_media_resize_xl: cke_media_resize_xl
       allowed_media_types:
+        audio: audio
         image: image
         remote_video: remote_video
