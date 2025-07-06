@@ -1,0 +1,22 @@
+uuid: 1debcb82-5acd-40a0-9f3c-fa6b75157911
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: shows
+label: Shows
+type: 'canonical_entities:node'
+pattern: 'shows/[node:field_show_date:date:html_date]/[node:field_venue:entity:title]'
+selection_criteria:
+  6c03189d-558e-47bb-b392-b5df23772383:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 6c03189d-558e-47bb-b392-b5df23772383
+    context_mapping:
+      node: node
+    bundles:
+      show: show
+selection_logic: and
+weight: -5
+relationships: {  }

@@ -13,6 +13,7 @@ dependencies:
     - datetime
     - inline_entity_form
     - media_library
+    - path
     - text
 id: node.show.default
 targetEntityType: node
@@ -31,13 +32,13 @@ content:
     third_party_settings: {  }
   created:
     type: datetime_timestamp
-    weight: 7
+    weight: 8
     region: content
     settings: {  }
     third_party_settings: {  }
   field_images:
     type: media_library_widget
-    weight: 26
+    weight: 5
     region: content
     settings:
       media_types: {  }
@@ -73,9 +74,15 @@ content:
       revision: false
       removed_reference: optional
     third_party_settings: {  }
+  path:
+    type: path
+    weight: 9
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   status:
     type: boolean_checkbox
-    weight: 5
+    weight: 6
     region: content
     settings:
       display_label: true
@@ -90,7 +97,7 @@ content:
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 6
+    weight: 7
     region: content
     settings:
       match_operator: CONTAINS
@@ -99,6 +106,5 @@ content:
       placeholder: ''
     third_party_settings: {  }
 hidden:
-  path: true
   promote: true
   sticky: true
