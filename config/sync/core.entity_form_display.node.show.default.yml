@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.show.body
+    - field.field.node.show.field_images
     - field.field.node.show.field_show_date
     - field.field.node.show.field_show_poster
     - field.field.node.show.field_venue
@@ -33,6 +34,13 @@ content:
     weight: 7
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_images:
+    type: media_library_widget
+    weight: 26
+    region: content
+    settings:
+      media_types: {  }
     third_party_settings: {  }
   field_show_date:
     type: datetime_default

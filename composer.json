@@ -12,15 +12,21 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+        "type": "composer",
+        "url": "https://asset-packagist.org"
         }
     ],
     "require": {
         "composer/installers": "^2.0",
+        "cweagans/composer-patches": "^1.7",
         "drupal/address": "^2.0",
         "drupal/address_map_link": "^1.4",
         "drupal/admin_toolbar": "^3.4",
         "drupal/backup_migrate": "^5.0",
         "drupal/ckeditor_media_resize": "^1.0",
+        "drupal/colorbox": "^2.1",
         "drupal/core-composer-scaffold": "^10.3",
         "drupal/core-recommended": "^10.3",
         "drupal/core-vendor-hardening": "^10.3",
@@ -45,6 +51,7 @@
     "config": {
         "allow-plugins": {
             "composer/installers": true,
+            "cweagans/composer-patches": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "drupal/core-composer-scaffold": true,
             "drupal/core-vendor-hardening": true,
@@ -64,12 +71,27 @@
                 "[web-root]/sites/default/settings.php": false
             }
         },
+        "installer-types": [
+            "npm-asset",
+            "bower-asset"
+        ],
+        "asset-installer-paths": {
+            "npm-asset-library": "web/libraries/{$name}",
+            "bower-asset-library": "web/libraries/{$name}"
+        },
+        "patches": {
+            "drupal/photoswipe": {
+                "Support Media Library Media Modify reference fields (https://dgo.to/3422506": "patches/drupal/photoswipe/3422506.patch"
+            }
+        },
         "installer-paths": {
             "web/core": [
                 "type:drupal-core"
             ],
             "web/libraries/{$name}": [
-                "type:drupal-library"
+                "type:drupal-library",
+                "type:npm-asset",
+                "type:bower-asset"
             ],
             "web/modules/contrib/{$name}": [
                 "type:drupal-module"

@@ -2,9 +2,12 @@
   "name": "the_randotheme",
   "private": true,
   "scripts": {
-    "livereload": "livereload --exclusions node_modules/ --exts 'css,js,twig,theme,apng,avif,gif,jpg,jpeg,jfif,pjpeg,pjp,png,svg,webp'"
+    "livereload": "livereload --exclusions node_modules/ --exts 'css,js,twig,theme,apng,avif,gif,jpg,jpeg,jfif,pjpeg,pjp,png,svg,webp'",
+    "build": "postcss css/styles.css -o css/styles.css"
   },
   "devDependencies": {
-    "livereload": "^0.9.3"
+    "livereload": "^0.9.3",
+    "postcss": "^8.5.1",
+    "postcss-cli": "^11.0.0"
   }
 }

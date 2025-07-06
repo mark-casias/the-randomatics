@@ -1,0 +1,7 @@
+[data-component-id="the_randotheme:field-images"] {
+  .images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.past
     - field.field.node.show.body
+    - field.field.node.show.field_images
     - field.field.node.show.field_show_date
     - field.field.node.show.field_show_poster
     - field.field.node.show.field_venue
@@ -37,6 +38,7 @@ content:
     region: content
 hidden:
   body: true
+  field_images: true
   field_show_date: true
   field_venue: true
   links: true

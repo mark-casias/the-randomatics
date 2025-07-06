@@ -1,10 +1,12 @@
 
 <div {{ attributes.addClass("show")}}>
-  <div class="show__label">{{ label }}</div>
+  <div class="show__label"><a href="{{url}}">{{ label }}</a></div>
   <div class="show__place">
+    <a href="{{url}}">
     {% block show_image %}
       <img src={{image.src}} alt={{image.alt}} />
     {% endblock %}
+    </a>
     {{field_show_location}}
   </div>
 </div>

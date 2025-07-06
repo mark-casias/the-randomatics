@@ -1,0 +1,8 @@
+<div{{ attributes }}>
+  <h3>{{ label }}</h3>
+  <div class="images">
+    {% for item in items %}
+      <div{{ item.attributes }}>{{ item.content }}</div>
+    {% endfor %}
+  </div>
+</div>

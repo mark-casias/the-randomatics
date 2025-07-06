@@ -3,12 +3,16 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.media.cke_media_resize_small
+    - core.entity_view_mode.media.cke_media_resize_xl
     - field.field.node.show.body
+    - field.field.node.show.field_images
     - field.field.node.show.field_show_date
     - field.field.node.show.field_show_poster
     - field.field.node.show.field_venue
     - node.type.show
   module:
+    - colorbox
     - datetime
     - nomarkup
     - text
@@ -23,14 +27,29 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 3
+    weight: 2
+    region: content
+  field_images:
+    type: colorbox_view_modes
+    label: above
+    settings:
+      colorbox_view_mode: cke_media_resize_small
+      colorbox_modal_view_mode: cke_media_resize_xl
+      colorbox_gallery: page
+      colorbox_gallery_custom: ''
+    third_party_settings:
+      nomarkup:
+        enabled: false
+        separator: '|'
+        referenced_entity: ''
+    weight: 1
     region: content
   field_show_date:
     type: datetime_default
     label: hidden
     settings:
       timezone_override: ''
-      format_type: medium
+      format_type: long
     third_party_settings:
       nomarkup:
         enabled: true
@@ -49,7 +68,7 @@ content:
         enabled: true
         separator: '|'
         referenced_entity: '1'
-    weight: 2
+    weight: 4
     region: content
   field_venue:
     type: entity_reference_entity_view
@@ -62,7 +81,7 @@ content:
         enabled: false
         separator: '|'
         referenced_entity: '0'
-    weight: 1
+    weight: 3
     region: content
 hidden:
   links: true
