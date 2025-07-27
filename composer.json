@@ -27,21 +27,22 @@
         "drupal/backup_migrate": "^5.0",
         "drupal/ckeditor_media_resize": "^1.0",
         "drupal/colorbox": "^2.1",
-        "drupal/core-composer-scaffold": "^10.3",
-        "drupal/core-recommended": "^10.3",
-        "drupal/core-vendor-hardening": "^10.3",
-        "drupal/gin": "^4",
+        "drupal/core-composer-scaffold": "^10.5",
+        "drupal/core-recommended": "^10.5",
+        "drupal/core-vendor-hardening": "^10.5",
+        "drupal/gin": "^4.1",
         "drupal/google_tag": "^2.0",
         "drupal/inline_entity_form": "^3.0@RC",
         "drupal/nomarkup": "^1.0",
         "drupal/pathauto": "^1.12",
+        "drupal/sdc_styleguide": "^1.1",
         "drupal/stage_file_proxy": "^3.1",
         "drupal/storybook": "^1.0",
         "drupal/twig_field_value": "^2.0",
         "drush/drush": "^13.3"
     },
     "require-dev": {
-        "drupal/core-dev": "^10.3"
+        "drupal/core-dev": "^10.5"
     },
     "conflict": {
         "drupal/drupal": "*"

@@ -7,13 +7,17 @@ props:
   properties:
     class:
       type: string
-      name: Classes
-      description: Specific classes to append to link
+      description: "Specific classes to append to link (menu-item)"
+      title: Classes
+      enum:
+        - ""
+        - "menu-item"
     text:
       type: string
-      name: Text
+      title: Text
       description: Link Text
     href:
       type: string
-      name: URL
       description: URL
+      title: URL
+      default: "#"

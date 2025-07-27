@@ -5,5 +5,4 @@
 $schema: https://git.drupalcode.org/project/sdc/-/raw/1.x/src/metadata.schema.json
 name: Show Teaser
 status: stable
-group: TheRandoTheme
-
+group: Content

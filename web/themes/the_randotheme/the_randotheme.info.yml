@@ -4,7 +4,7 @@ base theme: stable9
 description: Randomatics Theme
 logo: 'images/randomatics+logo+promo+crop.png'
 package: Custom
-core_version_requirement: ^10
+core_version_requirement: ^10 || ^11
 libraries:
   - the_randotheme/global
 regions:

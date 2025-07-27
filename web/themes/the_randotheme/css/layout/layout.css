@@ -1,5 +1,5 @@
 body {
-  font-family: 'League Spartan', sans-serif;
+  font-family: "League Spartan", sans-serif;
   color: white;
   background-color: black;
   font-size: 1.5rem;
@@ -13,14 +13,15 @@ body {
   }
 }
 
-h1, h2 {
+h1,
+h2 {
   font-size: 1.5rem;
   color: var(--color-blue);
 }
 
 .menu {
-  margin: .5rem;
-  padding: .5rem 0;
+  margin: 0.5rem;
+  padding: 0.5rem 0;
   background-color: var(--color-blue);
 }
 main {
@@ -39,4 +40,9 @@ ul.video-item {
   gap: 1rem;
   align-items: center;
   justify-content: center;
+}
+
+/** SDC Styleguide overrides **/
+.sdc-styleguide-pattern {
+  background: black;
 }

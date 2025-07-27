@@ -40,6 +40,7 @@
           class: 'menu-item',
           href: item.url,
           text: item.title,
+          external: item.url.external
         } %}
         {% if item.below %}
           {{ menus.menu_links(item.below, attributes, menu_level + 1) }}

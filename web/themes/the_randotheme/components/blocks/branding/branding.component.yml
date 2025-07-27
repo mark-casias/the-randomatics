@@ -7,3 +7,11 @@ name: Branding Block
 status: stable
 group: TheRandoTheme
 
+props:
+  type: object
+  properties:
+    site_logo:
+      type: string
+      name: Site Logo
+      title: Site Logo
+      description: "URL to site logo."
