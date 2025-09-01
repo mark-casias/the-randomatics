@@ -14,15 +14,15 @@
             "url": "https://packages.drupal.org/8"
         },
         {
-        "type": "composer",
-        "url": "https://asset-packagist.org"
+            "type": "composer",
+            "url": "https://asset-packagist.org"
         }
     ],
     "require": {
         "composer/installers": "^2.0",
         "cweagans/composer-patches": "^1.7",
         "drupal/address": "^2.0",
-        "drupal/address_map_link": "^1.4",
+        "drupal/address_map_link": "^2.0@alpha",
         "drupal/admin_toolbar": "^3.4",
         "drupal/backup_migrate": "^5.0",
         "drupal/ckeditor_media_resize": "^1.0",
