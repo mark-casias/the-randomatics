@@ -20,7 +20,7 @@
     ],
     "require": {
         "composer/installers": "^2.0",
-        "cweagans/composer-patches": "^1.7",
+        "cweagans/composer-patches": "^2.0",
         "drupal/address": "^2.0",
         "drupal/address_map_link": "^2.0@alpha",
         "drupal/admin_toolbar": "^3.4",
@@ -82,7 +82,7 @@
         },
         "patches": {
             "drupal/photoswipe": {
-                "Support Media Library Media Modify reference fields (https://dgo.to/3422506": "patches/drupal/photoswipe/3422506.patch"
+                "Support Media Library Media Modify reference fields (https://dgo.to/3422506)": "patches/drupal/photoswipe/3422506.patch"
             }
         },
         "installer-paths": {
