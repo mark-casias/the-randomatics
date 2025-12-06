@@ -1,0 +1,17 @@
+{
+    "_hash": "02b2ec192c21d7eeb4fda6903e3ac5394dfe6e9f1e2dfec8859d4731c54ac50e",
+    "patches": {
+        "drupal/photoswipe": [
+            {
+                "package": "drupal/photoswipe",
+                "description": "Support Media Library Media Modify reference fields (https://dgo.to/3422506",
+                "url": "patches/drupal/photoswipe/3422506.patch",
+                "sha256": "367c2de57d91a2085e4503c3c24384f891a4a60c2c236e2de9aaeda47f7534e6",
+                "depth": 1,
+                "extra": {
+                    "provenance": "root"
+                }
+            }
+        ]
+    }
+}

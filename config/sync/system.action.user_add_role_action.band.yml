@@ -1,0 +1,14 @@
+uuid: e32d4b9b-29fc-4d46-9e36-38a57d2dc1cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.band
+  module:
+    - user
+id: user_add_role_action.band
+label: 'Add the Band role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: band

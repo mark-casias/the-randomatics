@@ -1,0 +1,9 @@
+uuid: c595aaad-c0c5-4ac6-a19c-26307954f40f
+langcode: en
+status: true
+dependencies: {  }
+id: band
+label: Band
+weight: 2
+is_admin: false
+permissions: {  }

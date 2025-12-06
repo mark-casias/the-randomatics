@@ -4,16 +4,22 @@ status: true
 dependencies:
   config:
     - filter.format.html
+    - media.type.audio
     - media.type.image
+    - media.type.remote_video
     - node.type.page
     - node.type.show
+    - node.type.venue
   module:
     - file
     - filter
     - media
+    - navigation
     - node
+    - path
     - storybook
     - system
+    - taxonomy
     - toolbar
 _core:
   default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
@@ -22,44 +28,81 @@ label: 'Authenticated user'
 weight: 1
 is_admin: false
 permissions:
+  - 'access administration pages'
   - 'access content'
   - 'access content overview'
   - 'access files overview'
   - 'access media overview'
+  - 'access navigation'
+  - 'access site in maintenance mode'
+  - 'access taxonomy overview'
   - 'access toolbar'
+  - 'administer menu'
+  - 'administer taxonomy'
+  - 'administer url aliases'
+  - 'change own username'
+  - 'create audio media'
   - 'create image media'
   - 'create media'
   - 'create page content'
+  - 'create remote_video media'
   - 'create show content'
+  - 'create url aliases'
+  - 'create venue content'
+  - 'delete all taxonomy revisions'
+  - 'delete any audio media'
+  - 'delete any audio media revisions'
   - 'delete any image media'
   - 'delete any image media revisions'
   - 'delete any media'
   - 'delete any page content'
+  - 'delete any remote_video media'
+  - 'delete any remote_video media revisions'
   - 'delete any show content'
+  - 'delete any venue content'
   - 'delete media'
+  - 'delete own audio media'
   - 'delete own files'
   - 'delete own image media'
   - 'delete own page content'
+  - 'delete own remote_video media'
   - 'delete own show content'
+  - 'delete own venue content'
   - 'delete page revisions'
   - 'delete show revisions'
+  - 'delete venue revisions'
+  - 'edit any audio media'
   - 'edit any image media'
   - 'edit any page content'
+  - 'edit any remote_video media'
   - 'edit any show content'
+  - 'edit any venue content'
+  - 'edit own audio media'
   - 'edit own image media'
   - 'edit own page content'
+  - 'edit own remote_video media'
   - 'edit own show content'
+  - 'edit own venue content'
   - 'render storybook stories'
+  - 'revert all taxonomy revisions'
+  - 'revert any audio media revisions'
   - 'revert any image media revisions'
+  - 'revert any remote_video media revisions'
   - 'revert page revisions'
   - 'revert show revisions'
+  - 'revert venue revisions'
   - 'update any media'
   - 'update media'
   - 'use text format html'
   - 'view all media revisions'
+  - 'view all taxonomy revisions'
+  - 'view any audio media revisions'
   - 'view any image media revisions'
+  - 'view any remote_video media revisions'
   - 'view media'
   - 'view own unpublished content'
   - 'view own unpublished media'
   - 'view page revisions'
   - 'view show revisions'
+  - 'view venue revisions'
+  - 'view vocabulary labels'

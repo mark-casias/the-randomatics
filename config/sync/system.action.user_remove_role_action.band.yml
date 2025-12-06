@@ -1,0 +1,14 @@
+uuid: 072349f6-e7db-4128-828c-13914d1469b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.band
+  module:
+    - user
+id: user_remove_role_action.band
+label: 'Remove the Band role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: band
