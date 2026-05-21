@@ -11,15 +11,8 @@ database:
     version: "10.6"
 hooks:
     post-start:
-        - exec: echo '                                  NOTICE'
-        - exec: echo '================================================================================='
-        - exec: echo 'The node.js container is ready. You can start storybook by typing:'
-        - exec: echo 'ddev yarn storybook'
-        - exec: echo
-        - exec: echo 'By default it will be available at https://therandomatics-drupal.ddev.site:6006'
-        - exec: echo "Use ddev describe to confirm if this doesn't work."
-        - exec: echo 'Check the status of startup by running "ddev logs --follow --time"'
-        - exec: echo '================================================================================='
+        - exec: echo 'Rock & Roll!'
+
 webimage_extra_packages: [pkg-config, libpixman-1-dev, libcairo2-dev, libpango1.0-dev, make]
 use_dns_when_possible: true
 composer_version: "2"
