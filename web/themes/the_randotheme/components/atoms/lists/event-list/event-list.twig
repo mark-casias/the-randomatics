@@ -26,6 +26,8 @@
         {{- row.content -}}
       </li>
     {% endfor %}
-
   </ul>
+  {% if more %}
+    <div class="more">{{more}}</div>
+  {% endif %}
 </div>

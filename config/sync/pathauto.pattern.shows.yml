@@ -7,7 +7,7 @@ dependencies:
 id: shows
 label: Shows
 type: 'canonical_entities:node'
-pattern: 'shows/[node:field_show_date:date:html_date]/[node:field_venue:entity:title]'
+pattern: '/shows/[node:field_show_date:date:html_date]/[node:field_venue:entity:title]'
 selection_criteria:
   6c03189d-558e-47bb-b392-b5df23772383:
     id: 'entity_bundle:node'

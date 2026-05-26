@@ -14,3 +14,12 @@
     margin-bottom: 1rem;
   }
 }
+
+.more-link {
+  text-align: end;
+  margin-block-end: 2rem;
+
+  a {
+    color: red;
+  }
+}
