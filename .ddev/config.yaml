@@ -11,7 +11,11 @@ database:
     version: "10.6"
 hooks:
     post-start:
-        - exec: echo 'Rock & Roll!'
+      - exec: echo 'Rock & Roll!'
+    post-import-db:
+      - exec: drush en stage_file_proxy -y
+      - exec: drush config-set stage_file_proxy.settings origin "https://therandomatics.com"
+      - exec: drush uli
 
 webimage_extra_packages: [pkg-config, libpixman-1-dev, libcairo2-dev, libpango1.0-dev, make]
 use_dns_when_possible: true

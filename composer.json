@@ -25,6 +25,7 @@
         "drupal/address_map_link": "^2.0@alpha",
         "drupal/admin_toolbar": "^3.4",
         "drupal/backup_migrate": "^5.0",
+        "drupal/canvas": "^1.9",
         "drupal/ckeditor_media_resize": "^1.0",
         "drupal/colorbox": "^2.1",
         "drupal/core-composer-scaffold": "^11.4.0",
